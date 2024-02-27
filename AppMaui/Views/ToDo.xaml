@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMaui.Views.ToDo"
+             xmlns:model="clr-namespace:AppMaui.Models"
+             xmlns:viewmodel="clr-namespace:AppMaui.ViewModel">
+
+
+    <VerticalStackLayout>
+
+        <Label FontSize="Large"
+               Text="To Do List"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+
+        <Grid>
+            <Entry x:Name="searchEntry"
+                   Placeholder="Search by Name."
+                   Margin="10"
+                   TextColor="#727e8a"/>
+
+            <Button Clicked="SearchButtonClicked"
+                    HorizontalOptions="EndAndExpand"
+                    Text="Search"
+                    BackgroundColor="#007bff"
+                    TextColor="White"                  
+                    Margin="10"/>
+        </Grid>
+
+        <Button Clicked="DisplayPopup"
+                HorizontalOptions="FillAndExpand"                    
+                Text="ADD NEW"
+                BackgroundColor="#28a745"
+                TextColor="White"
+                Margin="10"/>
+
+        <CollectionView ItemsSource="{Binding TaskList}"
+                        ItemsLayout="VerticalList">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Padding="10"
+                                 BackgroundColor="#f8f9fa"
+                                 Margin="0,5,0,0">
+                        <Label Text="{Binding TaskName}" 
+                               FontSize="Medium"/>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </VerticalStackLayout>
+
+</ContentPage>

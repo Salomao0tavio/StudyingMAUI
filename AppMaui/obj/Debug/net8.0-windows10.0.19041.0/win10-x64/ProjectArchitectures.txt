@@ -1,0 +1,1 @@
+C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\AppMaui.csproj;x64

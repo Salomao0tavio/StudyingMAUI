@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:AppMaui.ViewsModels"
+             xmlns:model="clr-namespace:AppMaui.Models"
+             x:Class="AppMaui.Views.VeiculosDetail"        
+             Title="{Binding Title}">
+
+    <ContentPage.BindingContext>
+        <viewModels:VeiculoViewModel/>
+    </ContentPage.BindingContext>
+
+    <StackLayout>
+        <CollectionView ItemsSource="{Binding Veiculos}">
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout Orientation="Vertical" ItemSpacing="10" />
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame  BackgroundColor="Purple" CornerRadius="10" Padding="10" Margin="10">
+                        <StackLayout>
+                            <Label Text="{Binding Modelo}" FontSize="18" FontAttributes="Bold"/>
+                            <Label Text="{Binding Marca}" FontSize="16"/>
+                            <Label Text="{Binding Cor}" FontSize="16"/>
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+
+</ContentPage>
