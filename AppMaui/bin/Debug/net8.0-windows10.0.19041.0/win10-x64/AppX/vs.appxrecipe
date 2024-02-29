@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.appmaui</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>45C303652E67C9FB20C1AD8AF04618FD638227DBA9533C818B6B371ECF709834</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.appmaui_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.appmaui_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,268 +26,272 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-27T16:58:59.637</Modified>
+      <Modified>2024-02-29T20:01:51.087</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-27T16:58:59.462</Modified>
+      <Modified>2024-02-29T20:01:50.962</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppMaui.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppMaui.runtimeconfig.json">
       <PackagePath>AppMaui.runtimeconfig.json</PackagePath>
-      <Modified>2024-02-27T12:34:09.770</Modified>
+      <Modified>2024-02-28T13:48:55.467</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppMaui.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppMaui.dll">
       <PackagePath>AppMaui.dll</PackagePath>
-      <Modified>2024-02-27T16:58:59.021</Modified>
+      <Modified>2024-02-29T20:01:50.632</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AppMaui.exe</PackagePath>
-      <Modified>2024-02-27T16:58:59.048</Modified>
+      <Modified>2024-02-29T20:01:50.632</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2024-02-26T11:19:56.755</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2024-02-26T12:32:48.383</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2024-02-26T12:32:48.399</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2024-02-26T12:32:48.415</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2024-02-26T12:32:48.446</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2024-02-26T12:32:48.571</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2024-02-26T11:19:56.746</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2024-02-26T11:19:56.746</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2024-02-26T12:32:49.293</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2024-02-26T12:32:49.844</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2024-02-26T12:32:49.871</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2024-02-26T12:32:49.892</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2024-02-26T12:32:49.925</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2024-02-26T12:32:50.044</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
       <Modified>2024-02-26T12:32:49.434</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
       <Modified>2024-02-26T12:32:49.434</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
       <Modified>2024-02-26T12:32:49.465</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
       <Modified>2024-02-26T12:32:49.450</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
       <Modified>2024-02-26T12:32:49.450</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
       <Modified>2024-02-26T12:32:49.387</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
       <Modified>2024-02-26T12:32:49.387</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
       <Modified>2024-02-26T12:32:49.418</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
       <Modified>2024-02-26T12:32:49.403</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
       <Modified>2024-02-26T12:32:49.403</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2024-02-26T12:32:49.309</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2024-02-26T12:32:49.309</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2024-02-26T12:32:49.324</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2024-02-26T12:32:49.324</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2024-02-26T12:32:49.340</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
       <Modified>2024-02-26T12:32:49.340</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
       <Modified>2024-02-26T12:32:49.356</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
       <Modified>2024-02-26T12:32:49.387</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
       <Modified>2024-02-26T12:32:49.356</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
       <Modified>2024-02-26T12:32:49.371</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2024-02-26T12:32:49.583</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2024-02-26T12:32:49.591</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2024-02-26T12:32:49.607</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2024-02-26T12:32:49.623</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2024-02-26T12:32:49.670</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2024-02-26T12:32:49.513</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2024-02-26T12:32:49.528</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2024-02-26T12:32:49.544</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2024-02-26T12:32:49.544</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2024-02-26T12:32:49.575</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2024-02-26T12:32:49.481</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2024-02-26T12:32:49.483</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2024-02-26T12:32:49.483</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2024-02-26T12:32:49.497</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2024-02-26T12:32:49.513</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2024-02-26T12:32:49.686</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2024-02-26T12:32:49.701</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2024-02-26T12:32:49.717</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2024-02-26T12:32:49.748</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2024-02-26T12:32:49.822</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-02-26T12:32:49.293</Modified>
+      <Modified>2024-02-29T18:36:26.513</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-02-26T12:32:49.293</Modified>
+      <Modified>2024-02-29T18:36:26.528</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-02-26T12:32:49.309</Modified>
+      <Modified>2024-02-29T18:36:26.545</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-02-26T12:32:49.324</Modified>
+      <Modified>2024-02-29T18:36:26.571</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-02-26T12:32:49.403</Modified>
+      <Modified>2024-02-29T18:36:26.674</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppMaui.deps.json">
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\todo_title.scale-100.png">
+      <PackagePath>todo_title.scale-100.png</PackagePath>
+      <Modified>2024-02-29T18:35:43.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppMaui.deps.json">
       <PackagePath>AppMaui.deps.json</PackagePath>
-      <Modified>2024-02-27T14:48:07.519</Modified>
+      <Modified>2024-02-29T18:36:47.733</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -341,33 +345,33 @@
       <PackagePath>Microsoft.Graphics.Canvas.Interop.dll</PackagePath>
       <Modified>2023-05-31T20:07:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.compatibility\8.0.6\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.compatibility\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.dll">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.dll</PackagePath>
-      <Modified>2024-01-15T19:09:48.000</Modified>
+      <Modified>2024-02-13T17:13:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.dll">
       <PackagePath>Microsoft.Maui.Controls.dll</PackagePath>
-      <Modified>2024-01-15T19:06:38.000</Modified>
+      <Modified>2024-02-13T17:10:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.xaml\8.0.6\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Xaml.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.xaml\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Xaml.dll">
       <PackagePath>Microsoft.Maui.Controls.Xaml.dll</PackagePath>
-      <Modified>2024-01-15T19:07:02.000</Modified>
+      <Modified>2024-02-13T17:11:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.core\8.0.6\lib\net8.0-windows10.0.19041\Microsoft.Maui.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.core\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.dll">
       <PackagePath>Microsoft.Maui.dll</PackagePath>
-      <Modified>2024-01-15T19:07:30.000</Modified>
+      <Modified>2024-02-13T17:11:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.essentials\8.0.6\lib\net8.0-windows10.0.19041\Microsoft.Maui.Essentials.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.essentials\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.Essentials.dll">
       <PackagePath>Microsoft.Maui.Essentials.dll</PackagePath>
-      <Modified>2024-01-15T19:09:12.000</Modified>
+      <Modified>2024-02-13T17:14:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.graphics\8.0.6\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.graphics\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.dll">
       <PackagePath>Microsoft.Maui.Graphics.dll</PackagePath>
-      <Modified>2024-01-15T19:07:08.000</Modified>
+      <Modified>2024-02-13T17:11:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.graphics.win2d.winui.desktop\8.0.6\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.graphics.win2d.winui.desktop\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll">
       <PackagePath>Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll</PackagePath>
-      <Modified>2024-01-15T19:09:28.000</Modified>
+      <Modified>2024-02-13T17:13:18.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
       <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
@@ -429,141 +433,141 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Release.Net.dll</PackagePath>
       <Modified>2023-07-24T19:10:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:06.000</Modified>
+      <Modified>2024-02-13T17:10:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\ca\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\ca\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ca\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:04.000</Modified>
+      <Modified>2024-02-13T17:10:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\cs\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\cs\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>cs\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:32.000</Modified>
+      <Modified>2024-02-13T17:11:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\da\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\da\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>da\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:32.000</Modified>
+      <Modified>2024-02-13T17:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\de\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\de\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>de\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:02.000</Modified>
+      <Modified>2024-02-13T17:10:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\el\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\el\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>el\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:52.000</Modified>
+      <Modified>2024-02-13T17:11:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\es\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\es\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>es\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:02.000</Modified>
+      <Modified>2024-02-13T17:10:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\fi\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\fi\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>fi\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:04.000</Modified>
+      <Modified>2024-02-13T17:11:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\fr\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\fr\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>fr\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:08.000</Modified>
+      <Modified>2024-02-13T17:11:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\he\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\he\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>he\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:06.000</Modified>
+      <Modified>2024-02-13T17:10:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\hi\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\hi\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>hi\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:30.000</Modified>
+      <Modified>2024-02-13T17:10:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\hr\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\hr\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>hr\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:30.000</Modified>
+      <Modified>2024-02-13T17:10:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\hu\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\hu\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>hu\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:34.000</Modified>
+      <Modified>2024-02-13T17:11:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\id\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\id\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>id\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:34.000</Modified>
+      <Modified>2024-02-13T17:11:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\it\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\it\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>it\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:08.000</Modified>
+      <Modified>2024-02-13T17:11:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\ja\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\ja\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ja\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:06.000</Modified>
+      <Modified>2024-02-13T17:10:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\ko\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\ko\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ko\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:08.000</Modified>
+      <Modified>2024-02-13T17:10:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\ms\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\ms\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ms\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:06:40.000</Modified>
+      <Modified>2024-02-13T17:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\nb\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\nb\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>nb\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:06.000</Modified>
+      <Modified>2024-02-13T17:10:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\nl\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\nl\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>nl\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:06:40.000</Modified>
+      <Modified>2024-02-13T17:11:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\pl\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\pl\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>pl\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:36.000</Modified>
+      <Modified>2024-02-13T17:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\pt-BR\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\pt-BR\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>pt-BR\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:34.000</Modified>
+      <Modified>2024-02-13T17:11:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\pt\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\pt\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>pt\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:04.000</Modified>
+      <Modified>2024-02-13T17:10:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\ro\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\ro\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ro\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:32.000</Modified>
+      <Modified>2024-02-13T17:10:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\ru\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\ru\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ru\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:06.000</Modified>
+      <Modified>2024-02-13T17:10:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\sk\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\sk\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>sk\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:04.000</Modified>
+      <Modified>2024-02-13T17:10:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\sv\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\sv\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>sv\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:06:40.000</Modified>
+      <Modified>2024-02-13T17:10:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\th\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\th\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>th\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:08.000</Modified>
+      <Modified>2024-02-13T17:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\tr\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\tr\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>tr\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:06.000</Modified>
+      <Modified>2024-02-13T17:11:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\uk\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\uk\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>uk\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:04.000</Modified>
+      <Modified>2024-02-13T17:11:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\vi\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\vi\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>vi\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:04.000</Modified>
+      <Modified>2024-02-13T17:11:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\zh-HK\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\zh-HK\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>zh-HK\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:06:40.000</Modified>
+      <Modified>2024-02-13T17:10:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\zh-Hans\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\zh-Hans\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>zh-Hans\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:07:32.000</Modified>
+      <Modified>2024-02-13T17:10:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\zh-Hant\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\zh-Hant\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>zh-Hant\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-01-15T19:06:40.000</Modified>
+      <Modified>2024-02-13T17:10:50.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
@@ -573,17 +577,17 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2023-04-28T12:58:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.compatibility\8.0.6\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.compatibility\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
-      <Modified>2024-01-15T19:00:14.000</Modified>
+      <Modified>2024-02-13T17:01:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.pri">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.pri">
       <PackagePath>Microsoft.Maui.Controls.pri</PackagePath>
-      <Modified>2024-01-15T18:59:18.000</Modified>
+      <Modified>2024-02-13T17:01:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.core\8.0.6\lib\net8.0-windows10.0.19041\Microsoft.Maui.pri">
+    <AppxPackagedFile Include="C:\Users\otavi\.nuget\packages\microsoft.maui.core\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.pri">
       <PackagePath>Microsoft.Maui.pri</PackagePath>
-      <Modified>2024-01-15T18:58:56.000</Modified>
+      <Modified>2024-02-13T17:00:42.000</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

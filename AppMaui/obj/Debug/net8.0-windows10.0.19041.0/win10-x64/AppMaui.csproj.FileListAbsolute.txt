@@ -355,3 +355,4 @@ C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19
 C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\otavi\Source\Repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\otavi\source\repos\StudyingMAUI\AppMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\todo_title.scale-100.png

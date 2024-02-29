@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\otavi\\Source\\Repos\\StudyingMAUI\\AppMaui\\AppMaui.csproj": {}
+    "C:\\Users\\otavi\\source\\repos\\StudyingMAUI\\AppMaui\\AppMaui.csproj": {}
   },
   "projects": {
-    "C:\\Users\\otavi\\Source\\Repos\\StudyingMAUI\\AppMaui\\AppMaui.csproj": {
+    "C:\\Users\\otavi\\source\\repos\\StudyingMAUI\\AppMaui\\AppMaui.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\otavi\\Source\\Repos\\StudyingMAUI\\AppMaui\\AppMaui.csproj",
+        "projectUniqueName": "C:\\Users\\otavi\\source\\repos\\StudyingMAUI\\AppMaui\\AppMaui.csproj",
         "projectName": "AppMaui",
-        "projectPath": "C:\\Users\\otavi\\Source\\Repos\\StudyingMAUI\\AppMaui\\AppMaui.csproj",
+        "projectPath": "C:\\Users\\otavi\\source\\repos\\StudyingMAUI\\AppMaui\\AppMaui.csproj",
         "packagesPath": "C:\\Users\\otavi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\otavi\\Source\\Repos\\StudyingMAUI\\AppMaui\\obj\\",
+        "outputPath": "C:\\Users\\otavi\\source\\repos\\StudyingMAUI\\AppMaui\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -71,11 +71,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -118,11 +118,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -165,11 +165,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -213,11 +213,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             }
           },
           "imports": [

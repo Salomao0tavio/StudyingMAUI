@@ -1,6 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 
-namespace AppMaui.ViewModel;
+namespace AppMaui.ViewsModels;
 
 public partial class BaseViewModel : ObservableObject
 {

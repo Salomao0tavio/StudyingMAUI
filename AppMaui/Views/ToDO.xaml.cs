@@ -1,43 +1,56 @@
-using AppMaui.Components;
 using AppMaui.Models;
-using Microsoft.Maui.Controls.Xaml;
+using AppMaui.ViewsModels;
+using System.Xml.Linq;
 
-namespace AppMaui.Views;
-
-public partial class ToDo : ContentPage
+namespace AppMaui.Views
 {
-    public ToDo()
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class ToDo : ContentPage
     {
-        InitializeComponent();
-        BindingContext = new ToDoViewModel();
+        public ToDo()
+        {
+            InitializeComponent();
+            BindingContext = new ToDoViewModel();
+        }
+
+        private void SearchButtonClicked(object sender, EventArgs e)
+        {
+            try
+            {
+                var searchEntryText = entryName.Text;
+                (BindingContext as ToDoViewModel)?.Search(searchEntryText);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        private void AddItem(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrWhiteSpace(entryName.Text))
+                (BindingContext as ToDoViewModel)?.AddNewTask(entryName.Text);
+            
+        }
+        private void DeleteItem(object sender, EventArgs e)
+        {
+            try
+            {
+                SwipeItem swipeItem = sender as SwipeItem;
+                if (swipeItem != null)
+                {
+                    TaskItem taskToDelete = swipeItem.BindingContext as TaskItem;
+                    if (taskToDelete != null)
+                    {
+                        (BindingContext as ToDoViewModel)?.DeleteTask(taskToDelete);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
     }
-
-    //private void SearchButtonClicked(object sender, EventArgs e)
-    //{
-    //    var search = searchEntry.Text;
-    //    List<TaskItem> taskList = BindingContext.LoadFromXaml();
-    //    foreach (var item in taskList)
-    //    {
-    //        if (item.TaskName.Contains(search))
-    //        {
-    //            taskList.FindAll(x => x.TaskName.ToUpper.Contains(search.ToUpper));
-    //        }
-    //    }
-    //}
-
-    public void DisplayPopup()
-    {
-        //chamar a classe PopUp() que tem o que eu quero e exibir
-        PopUp popUp = new PopUp();
-        popUp.
-    }
-
-
-
-    private void AddButtonClicked(object sender, EventArgs e)
-    {
-        var taskList = (BindingContext as ToDoViewModel).TaskList;
-        taskList.Add(new TaskItem { TaskName = "New Task" });
-    }
-
 }

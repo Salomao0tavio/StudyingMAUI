@@ -3,51 +3,83 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppMaui.Views.ToDo"
              xmlns:model="clr-namespace:AppMaui.Models"
-             xmlns:viewmodel="clr-namespace:AppMaui.ViewModel">
+             xmlns:viewmodel="clr-namespace:AppMaui.ViewsModels">
 
+    <Grid>
 
-    <VerticalStackLayout>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
-        <Label FontSize="Large"
-               Text="To Do List"
-               VerticalOptions="Center"
-               HorizontalOptions="Center"/>
+        <Grid  Grid.Row="0"
+               RowDefinitions="150"
+               ColumnDefinitions="*, *"
+               HorizontalOptions="CenterAndExpand">
 
-        <Grid>
-            <Entry x:Name="searchEntry"
-                   Placeholder="Search by Name."
-                   Margin="10"
-                   TextColor="#727e8a"/>
+            <Image Source="todo_title.png"
+                   BackgroundColor="Transparent"
+                   Grid.Column="0" 
+                   MaximumHeightRequest="80"/>
 
-            <Button Clicked="SearchButtonClicked"
-                    HorizontalOptions="EndAndExpand"
-                    Text="Search"
-                    BackgroundColor="#007bff"
-                    TextColor="White"                  
-                    Margin="10"/>
+            <Label FontSize="Medium"
+                   Grid.Column="1"
+                   Text="To Do List"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+
         </Grid>
 
-        <Button Clicked="DisplayPopup"
-                HorizontalOptions="FillAndExpand"                    
-                Text="ADD NEW"
-                BackgroundColor="#28a745"
-                TextColor="White"
-                Margin="10"/>
+        <Entry x:Name="entryName"
+               Grid.Row="1"
+               HorizontalOptions="FillAndExpand" 
+               Margin="5"    
+               Placeholder="Write the Name"               
+               TextColor="#727e8a"/>
 
-        <CollectionView ItemsSource="{Binding TaskList}"
-                        ItemsLayout="VerticalList">
+        <Grid Grid.Row="2" Margin="5" ColumnDefinitions="*, *">
+
+            <Button Clicked="SearchButtonClicked"       
+                    BorderWidth="2"
+                    Grid.Column="1"
+                    Text="Search"
+                    BackgroundColor="#007bff"
+                    TextColor="White"  />
+
+            <Button Clicked="AddItem"
+                    BorderWidth="2"
+                    Grid.Column="0"
+                    Text="Add New"
+                    BackgroundColor="#28a745"
+                    TextColor="White"/>
+
+        </Grid>
+
+        <CollectionView Grid.Row="3"
+                        ItemsSource="{Binding TaskList}" 
+                        x:Name="ToDoList">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <StackLayout Padding="10"
-                                 BackgroundColor="#f8f9fa"
-                                 Margin="0,5,0,0">
-                        <Label Text="{Binding TaskName}" 
-                               FontSize="Medium"/>
-                    </StackLayout>
+                    <SwipeView>
+                        <SwipeView.RightItems>
+                            <SwipeItems>
+                                <SwipeItem Text="Delete"
+                                           BackgroundColor="Red" 
+                                           Clicked="DeleteItem"
+                                           x:Name="itemTask"/>
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+                        <Grid Padding="5">
+                            <Frame>
+                                <Label Text="{Binding TaskName}"  FontSize="15"/>
+                            </Frame>
+                        </Grid>
+                    </SwipeView>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
-
-    </VerticalStackLayout>
+    </Grid>
 
 </ContentPage>

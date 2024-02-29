@@ -1,6 +1,5 @@
 ﻿using AppMaui.Models;
 using AppMaui.Services;
-using AppMaui.ViewModel;
 using CommunityToolkit.Mvvm.Input;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
