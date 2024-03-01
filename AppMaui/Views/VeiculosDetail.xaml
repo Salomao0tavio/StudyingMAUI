@@ -1,33 +1,60 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:viewModels="clr-namespace:AppMaui.ViewsModels"
+             xmlns:viewmodel="clr-namespace:AppMaui.ViewsModels"
              xmlns:model="clr-namespace:AppMaui.Models"
-             x:Class="AppMaui.Views.VeiculosDetail"        
+             x:Class="AppMaui.Views.VehiclesDetail"        
              Title="{Binding Title}">
 
-    <ContentPage.BindingContext>
-        <viewModels:VeiculoViewModel/>
-    </ContentPage.BindingContext>
+    <Grid BackgroundColor="LightSlateGray" RowDefinitions="100, auto">
 
-    <StackLayout>
-        <CollectionView ItemsSource="{Binding Veiculos}">
+        <Label Grid.Row="0"
+               HorizontalOptions="CenterAndExpand"  
+            Text="Modelos Disponíveis" 
+               FontSize="Large"
+               FontAttributes="Bold"
+               TextColor="White"
+               Padding="10"/>
+
+        <CollectionView Grid.Row="1" ItemsSource="{Binding Vehicles}" Margin="20,0,20,20">
             <CollectionView.ItemsLayout>
                 <LinearItemsLayout Orientation="Vertical" ItemSpacing="10" />
             </CollectionView.ItemsLayout>
 
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Frame  BackgroundColor="Purple" CornerRadius="10" Padding="10" Margin="10">
+                    <Frame BackgroundColor="White"
+                           CornerRadius="15"
+                           Padding="15" 
+                           Margin="0,10,0,10">
+
                         <StackLayout>
-                            <Label Text="{Binding Modelo}" FontSize="18" FontAttributes="Bold"/>
-                            <Label Text="{Binding Marca}" FontSize="16"/>
-                            <Label Text="{Binding Cor}" FontSize="16"/>
+                            <Image Source="{Binding image_url}" 
+                                   Aspect="AspectFit"
+                                   HeightRequest="150"
+                                   Margin="0,0,0,10"/>
+
+                            <Label Text="{Binding Modelo}" 
+                                   FontSize="24" 
+                                   FontAttributes="Bold"
+                                   TextColor="#333333"/>
+                            <Label Text="{Binding Marca}" 
+                                   FontSize="16"
+                                   TextColor="#666666"/>
+                            <Label Text="{Binding Cidade}"
+                                   FontSize="16"
+                                   TextColor="#666666"/>
+                            <Label Text="{Binding Cor}"
+                                   FontSize="16"
+                                   TextColor="#666666"/>
+                            <Label Text="{Binding tipoCombustivel}"
+                                   FontSize="16"
+                                   TextColor="#666666"/>
                         </StackLayout>
                     </Frame>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
-    </StackLayout>
+    </Grid>
 
 </ContentPage>

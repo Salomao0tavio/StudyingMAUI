@@ -1,6 +1,5 @@
 using AppMaui.Models;
 using AppMaui.ViewsModels;
-using System.Xml.Linq;
 
 namespace AppMaui.Views
 {
@@ -32,6 +31,7 @@ namespace AppMaui.Views
                 (BindingContext as ToDoViewModel)?.AddNewTask(entryName.Text);
             
         }
+
         private void DeleteItem(object sender, EventArgs e)
         {
             try

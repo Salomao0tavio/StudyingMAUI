@@ -11,7 +11,7 @@ namespace AppMaui
 
         private void NavigateBtn_Clicked(object sender, EventArgs e)
         {            
-            Navigation.PushAsync(new VeiculosDetail());            
+            Navigation.PushAsync(new VehiclesDetail());            
         }
 
         private void NavigateBtn2_Clicked(object sender, EventArgs e)

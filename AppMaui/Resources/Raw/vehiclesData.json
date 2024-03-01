@@ -1,0 +1,128 @@
+[
+  {
+    "Ano": 2020,
+    "Cidade": "São Paulo",
+    "Cor": "Prata",
+    "image_url": "https://media.toyota.com.ar/ef4a3e15-1a97-433f-beaf-5572aab05c48.jpeg",
+    "Marca": "Toyota",
+    "Modelo": "Sedan",
+    "tipoCombustivel": "Gasolina"
+  },
+  {
+    "Ano": 2018,
+    "Cidade": "Rio de Janeiro",
+    "Cor": "Preto",
+    "image_url": "https://ofertas.vw.com.br/wp-content/uploads/2022/10/novo-polo-highine-tsi-my23-preto-ninja-frente_551x301px.png",
+    "Marca": "Volkswagen",
+    "Modelo": "Hatchback",
+    "tipoCombustivel": "Álcool"
+  },
+  {
+    "Ano": 2022,
+    "Cidade": "Curitiba",
+    "Cor": "Branco",
+    "image_url": "https://www.honda.com.br/automoveis/sites/hab/files/2021-10/Honda_HRV_2021_Atualizac%CC%A7a%CC%83o%20Basicas_LX_3_4_Frontal_A_Branco_Perolizado_1.png",
+    "Marca": "Honda",
+    "Modelo": "Crossover",
+    "tipoCombustivel": "Flex"
+  },
+  {
+    "Ano": 2021,
+    "Cidade": "Porto Alegre",
+    "Cor": "Vermelho",
+    "image_url": "https://cdn.motor1.com/images/mgl/8QYeP/s3/tesla-hatch-compacto.jpg",
+    "Marca": "Tesla",
+    "Modelo": "Compacto",
+    "tipoCombustivel": "Elétrico"
+  },
+  {
+    "Ano": 2017,
+    "Cidade": "Salvador",
+    "Cor": "Verde",
+    "image_url": "https://cdn.motor1.com/images/mgl/jlYOvy/s1/4x3/bmw-420i-cabrio-m-sport-2022.webp",
+    "Marca": "BMW",
+    "Modelo": "Conversível",
+    "tipoCombustivel": "Gás Natural"
+  },
+  {
+    "Ano": 1973,
+    "Cidade": "Fortaleza",
+    "Cor": "Amarelo",
+    "image_url": "https://i.pinimg.com/736x/32/ce/46/32ce4670c11e53e99a2dcffacc2c3435.jpg",
+    "Marca": "Chevrolet",
+    "Modelo": "Pickup",
+    "tipoCombustivel": "Diesel"
+  },
+  {
+    "Ano": 2019,
+    "Cidade": "Recife",
+    "Cor": "Roxo",
+    "image_url": "https://img.olx.com.br/images/56/563477360576590.jpg",
+    "Marca": "Kia",
+    "Modelo": "Minivan",
+    "tipoCombustivel": "Gasolina"
+  },
+  {
+    "Ano": 2018,
+    "Cidade": "Manaus",
+    "Cor": "Laranja",
+    "image_url": "https://image1.mobiauto.com.br/images/api/images/v1.0/291953781/transform/fl_progressive,f_webp,q_80,w_600",
+    "Marca": "Hyundai",
+    "Modelo": "SUV",
+    "tipoCombustivel": "Flex"
+  },
+  {
+    "Ano": 2016,
+    "Cidade": "Natal",
+    "Cor": "Cinza",
+    "image_url": "https://1.bp.blogspot.com/-bYjLqxj4-Nk/XXY26lO32jI/AAAAAAAAW0Q/G2vjowqrf3Ev39Mq7SS11fOA7gnj94YrgCLcBGAs/s1600/ferrari_812_gts.jpg",
+    "Marca": "Ferrari",
+    "Modelo": "Esportivo",
+    "tipoCombustivel": "Álcool"
+  },
+  {
+    "Ano": 2023,
+    "Cidade": "Brasília",
+    "Cor": "Prata",
+    "image_url": "https://assets.volvo.com/is/image/VolvoInformationTechnologyAB/image_01?qlt=82&wid=1024&ts=1626197331903&dpr=off&fit=constrain",
+    "Marca": "Volvo",
+    "Modelo": "Caminhão",
+    "tipoCombustivel": "Gás Natural"
+  },
+  {
+    "Ano": 2019,
+    "Cidade": "Belém",
+    "Cor": "Preto",
+    "image_url": "https://www.webmotors.com.br/imagens/prod/348218/MERCEDESBENZ_SPRINTER_2.2_CDI_DIESEL_VAN_516_TA_EXTRA_LONGO_21L_MANUAL_3482181302374167.webp?s=fill&w=440&h=330&q=80&t=true",
+    "Marca": "Mercedes-Benz",
+    "Modelo": "Van",
+    "tipoCombustivel": "Elétrico"
+  },
+  {
+    "Ano": 2021,
+    "Cidade": "Maceió",
+    "Cor": "Azul",
+    "image_url": "https://img.elo7.com.br/product/zoom/45079DB/onibus-em-miniatura-g7-double-deck-dd-pintura-azul-scania-cor.jpg",
+    "Marca": "Scania",
+    "Modelo": "Ônibus",
+    "tipoCombustivel": "Diesel"
+  },
+  {
+    "Ano": 2017,
+    "Cidade": "João Pessoa",
+    "Cor": "Branco",
+    "image_url": "https://i.ytimg.com/vi/b34KBtyS20E/maxresdefault.jpg",
+    "Marca": "John Deere",
+    "Modelo": "Trator",
+    "tipoCombustivel": "Gasolina"
+  },
+  {
+    "Ano": 2020,
+    "Cidade": "Florianópolis",
+    "Cor": "Vermelho",
+    "image_url": "https://goias.umuaramaharleydavidson.com.br/wp-content/uploads/2020/01/harley-davidson_fat-bob_thumb.jpg",
+    "Marca": "Harley-Davidson",
+    "Modelo": "Motocicleta",
+    "tipoCombustivel": "Flex"
+  }
+]

@@ -9,8 +9,7 @@ namespace AppMaui
         public static MauiApp CreateMauiApp()
         {
             var builder = MauiApp.CreateBuilder();
-            builder.Services.AddSingleton<VeiculoService>();
-            builder.Services.AddSingleton<VeiculoViewModel>();
+            builder.Services.AddSingleton<VehicleViewModel>();
             builder
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
